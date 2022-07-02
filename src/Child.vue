@@ -25,7 +25,8 @@ export default {
       this.users = null;
 
       // EXERCISE 01: CHILD TO PARENT EVENT
-      this.    // <- ANSWER
+      // Instruction: Add below the required method to propagate the event to parent component.
+      this.   // <-
       ('fetchUsers', (res) => {
         this.loading = false;
         this.users = res;
